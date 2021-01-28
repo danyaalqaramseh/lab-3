@@ -24,7 +24,7 @@ var itemType = '';
 var result = 0;
 var numItems='';
 while (testType == 'anime' || testType == 'video games') {
-  testType = prompt('what will you ask for , figures or  games Cd');
+  testType = prompt('What will you ask for , figures or  games Cd');
  if (testType=='figures'){
   numItems=prompt('how many figure do you want');
   itemType = '<img src="images/Anime.jpg"/>';

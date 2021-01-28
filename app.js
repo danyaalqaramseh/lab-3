@@ -1,47 +1,43 @@
 var personalType = prompt("Are you otaku?");
-alert("if you are an otaku continue please");
-var AnimeName = prompt("Type the name of the Anime please");
 
 
 var welc;
 
-if (personalType == "YES" || personalType == "yes") {
-    welc = "welcome to your favorite anime store";
+if (personalType === "YES" || personalType == "yes") {
+    welc =alert("welcome to your favorite anime store");
+    welc=prompt("Type the name of the Anime please");
+    document.write(welc);
+    confirm("Welcome to your store");
+    testType=prompt('what are you interested in anime or video games ?');
+
 
 }
-else if (personalType == "no" || personalType == "NO") {
-    welc = "you can leave the page";
-}
 
-
-document.write(welc);
-
-confirm("Welcome to your store");
-
-
-
-var clientType = prompt('Are You interested in anime or video games ?');
-
-while (clientType == 'anime' || clientType == 'video games') {
-    clientType = prompt('Welcome to your store . you can find what you want');
-}
-while (clientType !== 'anime' && clientType !== 'video games') {
-    clientType = prompt('what are you interested in ?');
+else if (personalType === "no" || personalType == "NO") {
+    welc = alert("you can leave the page");
+    document.write(welc);
 
 }
+
 
 var itemType = '';
-
-if (clientType === 'anime') {
-    itemType = prompt('are you interested in figures or something else');
-
-    while (itemType == 'figures') {
-
-        document.write("some figures");
-        itemType = '<img src = "images/Anime.jpg"/>';
-        document.write(itemType);
-    }
-
+var result = 0;
+var numItems='';
+while (testType == 'anime' || testType == 'video games') {
+  testType = prompt('what will you ask for , figures or  games Cd');
+ if (testType=='figures'){
+  numItems=prompt('how many figure do you want');
+  itemType = '<img src="images/Anime.jpg"/>';
+}
+else if(testType=='games cd'){
+    numItems=prompt('How many cd do you want');
+    itemType = '<img src="images/video game.jpg"/>';
 
 }
+}
 
+for (var i = 0; i < numItems; i++) {
+  result = result + itemType;
+
+}
+document.write(result);

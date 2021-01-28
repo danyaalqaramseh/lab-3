@@ -29,7 +29,7 @@ while (testType == 'anime' || testType == 'video games') {
   numItems=prompt('how many figure do you want');
   itemType = '<img src="images/Anime.jpg"/>';
 }
-else if(testType=='games cd'){
+else if(testType=='games Cd'){
     numItems=prompt('How many cd do you want');
     itemType = '<img src="images/video game.jpg"/>';
 

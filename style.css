@@ -1,4 +1,26 @@
-p h3{
-background-color: darkred;
+header nav ul {
+background-color: rgb(82, 3, 3);
+color:cornsilk ;
+}
+
+
+header nav ul li a
+{
+  color: beige ;
 
 }
+
+
+
+body {
+    background-color: gray;
+}
+
+#onlystore {
+
+    background-color: #250303 ;
+    color: whitesmoke;
+
+}
+
+

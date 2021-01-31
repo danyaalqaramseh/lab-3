@@ -41,3 +41,31 @@ for (var i = 0; i < numItems; i++) {
 
 }
 document.write(result);
+
+
+// lab06 functions
+
+
+
+function getAvg(){
+var avg =
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

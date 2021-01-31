@@ -8,7 +8,7 @@ if (personalType === "YES" || personalType == "yes") {
     welc=prompt("Type the name of the Anime please");
     document.write(welc);
     confirm("Welcome to your store");
-    testType=prompt('what are you interested in anime or video games ?');
+    var testType=prompt('what are you interested in anime or video games ?');
 
 
 }
@@ -46,13 +46,25 @@ document.write(result);
 // lab06 functions
 
 
-
-function getAvg(){
-var avg =
-
-
+function getPwd(){
+  var pwd=prompt('enter your password');
+  console.log(pwd);
 
 }
+
+getPwd();
+
+var getavg = function (a,b,c){
+
+var avg = (a+b+c)/3 ;
+
+return avg ;
+}
+
+var average = getavg(100,100,100);
+console.log(average);
+
+document.write(average);
 
 
 
